@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>você pode tentar abrir esse site em varios dispositivos ou sinplesmente aumente e diminua a janela do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750)" srcset="imagens/imagen-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagen-700.jpg" type="image/jpg">
+        <img src="imagens/imagen-1000.jpg" alt="uma foto minha">
+    </picture>
+    <h1>audio</h1>
+    <p>abaixo você vai ouvir uma musica</p>
+    <audio src="musicas/musica-001.mp3" controls></audio>
+    <h1>vidio</h1>
+    <p>abaixo você vai ver treis videos </p>
+    <video src="vidios/vidiio.mp4" controls></video>
+    <video src="vidios/stephen-hawkings-80th-birthday.mp4" width="300" controls></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bU4dGjV31w8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
