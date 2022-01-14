@@ -14,6 +14,11 @@
             height: 200px;
             width: 200px; }
             div:hover{background-color: blueviolet;}
+            div#p{display: block; width: 240px; background-color: white;}
+            div#p > p{display: none;}
+           div#p:hover >p{display: block; color: white; background-color: black; width: 240px;}
+           div#p:hover{color: brown; background-color: white;}
+
     </style>
 </head>
 <body>
@@ -21,5 +26,12 @@
     <div>02</div>
     <div>03</div>
     <div>04</div>
+    <h1>exemplo de hover</h1>
+    <p>passe o mouse no texto ábaixo</p>
+    <div id="p">
+        passe o mouse aqui
+        <p>TEXTO ESCONDIDO....</p>
+    </div>
+    <p>fim do exemplo</p>
 </body>
 </html>
