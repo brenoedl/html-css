@@ -6,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo  clase</title>
     <style>
-        div{
-            display: inline-block;
-            background-color: lightblue;
-            border: 1px solid black;
-            text-align: center;
-            height: 200px;
-            width: 200px; }
-            div:hover{background-color: blueviolet;}
-            div#p{display: block; width: 240px; background-color: white;}
-            div#p > p{display: none;}
-           div#p:hover >p{display: block; color: white; background-color: black; width: 240px;}
-           div#p:hover{color: brown; background-color: white;}
-
-    </style>
+        body{font-family: Arial, Helvetica, sans-serif;}
+        div{display: inline-block;background-color: lightblue;border: 1px solid black;text-align: center;height: 200px; width: 200px; }
+        div:hover{background-color: blueviolet;}
+        div#p{display: block; border: 1px solid white; height: 40px; width: 240px; background-color: white;}
+        div#p > p{display: none;}
+        div#p:hover >p{display: block; color: white; background-color: black; width: 240px;}
+       div#p:hover{color: brown; background-color: white;}
+      a{color: darkblue; text-decoration: none; font-weight: bold;}
+      a:hover{ color: darkgreen; text-decoration: underline;}
+      a::after{content: "link"; color: darkred;}
+</style>
 </head>
 <body>
     <div>01</div>
@@ -32,6 +29,13 @@
         passe o mouse aqui
         <p>TEXTO ESCONDIDO....</p>
     </div>
-    <p>fim do exemplo</p>
+    <p>fim do exemplo do hover</p>
+    <h1>personalizando link</h1>
+    <ul>
+        <li><a href="https://www.facebook.com/breno.emanuel.90834/" target="_blank">facebook</a>
+        <li><a href="https://www.instagram.com/brenoedl15/" target="_blank">instagram</a>
+        <li><a href="https://www.youtube.com/channel/UCIPoUUTu8Rm6XwBxIrzhhQQ" target="_blank">youtube</a>
+    </ul>
+
 </body>
 </html>
