@@ -22,10 +22,10 @@ body{background-color: var(--cor0); font-family: var(--fonte-padrao);}
 header{background-image: linear-gradient(to bottom,var(--cor3),var(--cor5)); min-height: 150px; text-align: center; padding-top: 30px; }
 header>h1{font-family: var(--fonte-destaque); color: white; margin-bottom: 15px;}
 header>p{color: white; padding-bottom: 30px;}
-nav{background-color: var(--cor5);padding: 10px; box-shadow: 0px 0px 10px #00000054;}
+nav{background-color: var(--cor5);padding: 10px; box-shadow: 0px 5px 0px #00000054;}
 nav>a{padding: 10px; color: var(--cor0); text-decoration: none;}
 nav>a:hover{background-color: var(--cor1);color: var(--cor5);}
-main{min-width: 320px; max-width: 820px; margin: auto; padding: 30px; background-color: white; box-shadow: 0px 0px 10px black; margin-bottom: 40px; border-radius: 0px,0px,10px,10px;}
+main{min-width: 320px; max-width: 820px; margin: auto; padding: 30px; background-color: white; box-shadow: 0px 0px 10px black; margin-bottom: 40px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 main h1{font-family: var(--fonte-android);color: var(--cor4);}
 main h2{font-family: var(--fonte-android); color: var(--cor4); background-image: linear-gradient(to right, var(--cor1), transparent);}
 main p{margin: 15px,0px; text-align: justify; text-indent: 30px; line-height: 2em;}
@@ -34,6 +34,8 @@ main a{background-color: var(--cor2);  color: var(--cor4); text-decoration: none
 main a:hover{text-decoration: underline;}
 main img{width: 100%;}
 main img.pq{max-width: 350px; display: block; margin: auto;}
-aside{background-color: var(--cor1); padding: 10px;}
+aside{background-color: var(--cor1); padding: 10px; border-radius: 10px;}
 aside>ul{list-style-position: inside; columns: 2; list-style-type: '\2714\00A0\00A0';}
-footer{background-color: var(--cor5); color: white; text-align: center;}
+footer{background-color: var(--cor5); color: white; text-align: center; padding: 10px;}
+footer a{color: white; text-decoration: none; font-weight: bold;}
+footer a:hover{text-decoration: underline;}
