@@ -9,7 +9,7 @@
 
 :root{--fonte001: Arial, Helvetica, sans-serif; 
     --fonte002: 'Passion One', sans-serif; 
-    --fonte003: 'Sriracha', sans-serif;
+    --fonte003: 'Sriracha', serif;
 }
 
 *{margin: 0px; padding: 0px;}
