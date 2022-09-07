@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif; background-color: lightgray;}
+
+        table{border-collapse: collapse;}
+
+        caption{background-color: lightgray; font-size: 1.3em; padding: 10px;}
+
+        thead,th{background-color: #524f4f; color: white;}
+
+        td,th{border: 1px solid black;  padding: 10px;}
+    </style>
+</head>
+<body>
+    <h1>exercício de tabela</h1>
+
+    <table>
+        <caption>filmes favoritos</caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Daniele De Aquino</td>
+                <td>Encanto</td>
+                <td>Luca</td>
+                <td>Viva</td>
+            </tr>
+            <tr>
+                <td>Geovana Martins</td>
+                <td>Avata</td>
+                <td>Mulan</td>
+                <td>Shang-chi</td>
+            </tr>
+            <tr>
+                <td>Ingrid Nicoly</td>
+                <td>Big Hero</td>
+                <td>Star Wars IX</td>
+                <td>Pets</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Breno Emanuel</td>
+                <td>Hilda e o Rei da Montanha</td>
+                <td>R.I.P.D.</td>
+                <td>Nanatsu No Tazai Prisoneiros do Céu</td>
+            </tr>
+            <tr>
+                <td>João Victor</td>
+                <td>homen de Ferro</td>
+                <td>dragon ball z batalha dos deuses</td>
+                <td>Vingadores Guerra Infinita</td>
+            </tr>
+            <tr>
+                <td>Brucci Mancuso</td>
+                <td>dragon ball super broly</td>
+                <td>nanatsu no taizai amaldiçoados pela luz</td>
+                <td>Vingadores Utimato</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
