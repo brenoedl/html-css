@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 005</title>
+</head>
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadsatro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sexo" id="mas" value="m"><label for="mas">Mascolino</label>
+            <input type="radio" name="sexo" id="fem" value="f" checked><label for="fem">Feminino</label>
+        </fieldset>
+        <Fieldset>
+            <legend>animes favoritos</legend>
+            <input type="checkbox" name="db" id="db" checked><label for="db">Dragon Ball</label><br>
+            <input type="checkbox" name="bleach" id="bleach"><label for="bleach">Bleach</label><br>
+            <input type="checkbox" name="jk" id="jk"><label for="jk">Jujutsu Kaizen</label><br>
+            <input type="checkbox" name="nnt" id="nnt"><label for="nnt">Nanatsu no Taizai</label><br>
+            <input type="checkbox" name="naruto" id="naruto"><label for="naruto">Naruto</label><br>
+            <input type="checkbox" name="ds" id="ds"><label for="ds">Demon Slayer</label><br>
+            <input type="checkbox" name="fma" id="fma"><label for="fma">FullMetal Alchemist</label><br>
+            <input type="checkbox" name="op" id="op"><label for="op">One Piece</label>
+        </Fieldset>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
