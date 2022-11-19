@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 009</title>
+</head>
+<body>
+    <h1>teste de formulário</h1>
+    <form action="cadsatro.php" method="get" autocomplete="on">
+        <p>
+            <label for="num">Numero</label>
+            <input type="range" name="num" id="num" min="0" max="10" oninput="val.innerHTML = Number(num.value)">
+            <output id="val"></output>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>
