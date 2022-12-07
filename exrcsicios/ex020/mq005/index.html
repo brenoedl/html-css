@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estillos/style.css" media="all">
+    <link rel="stylesheet" href="estillos/midia-query.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>Midia Query 005</title>
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="menu" class="material-symbols-outlined" onclick="clickmenu()">menu</span>
@@ -36,6 +37,13 @@
                 itens.style.display = 'none'
             }else{
                 itens.style.display = 'block'
+            }
+        }
+        function mudoutamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
             }
         }
     </script>
