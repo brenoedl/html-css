@@ -12,11 +12,28 @@
 </head>
 <body>
     <main>
-        <div></div>
-        <div>
-            <form action="login.php" method="post"></form> <!-- 1 Person 2 Lock -->
-            <!-- <span class="material-symbols-outlined"></span> -->
-        </div>
+        <section id="login">
+            <div id="foto"><!-- aqui vai a foto nas css --></div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="login.php" method="post">
+                    <p>
+                        <label for="uso"><span class="material-symbols-outlined">Person</span></label>
+                        <input type="email" name="email" id="email" placeholder="e-mail" autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="sen"><span class="material-symbols-outlined">Lock</span></label>
+                        <input type="password" name="sen" id="sen" minlength="8" maxlength="20" autocomplete="current-password" placeholder="senha" required>
+                    </p>
+                    <p>
+                        <input type="submit" value="entrae">
+                        <a href="#">Equeci minha senha</a>
+                    </p>
+                </form> 
+            </div>
+        </section>
     </main>
 </body>
 </html>
