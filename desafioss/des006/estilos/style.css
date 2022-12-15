@@ -28,7 +28,7 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 520px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px #00000073;
@@ -44,4 +44,76 @@ div#foto{
 div#formulario{
     display: block;
     padding: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p#frase{
+    font-size: .8em;
+}
+
+div.formulario{
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 8px;
+}
+
+span{
+    color: #ffffff;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.formulario > input{
+    background-color: #94cfcd;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+div.formulario > input:focus-within{
+    background-color: #ffffff;
+}
+
+input[type="submit"]{
+    display: block;
+    height: 40px;
+    width: 100%;
+    font-size: 1em;
+    background-color: #49a09d;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover{
+    background-color: #2d6462;
+}
+
+a{
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    border: 1px solid #49a08d;
+    border-radius: 5px;
+    color: #49a09d;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+a:hover{
+    background-color: #49a09d;
+    color: #ffffff;
 }

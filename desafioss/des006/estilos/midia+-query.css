@@ -7,6 +7,7 @@
 
     section#login{
         width: 80vw;
+        height: 280px;
     }
 
     div#foto{
@@ -28,6 +29,7 @@
 
     section#login{
         width: 950px;
+        height: 320px;
     }
 
     div#foto{
