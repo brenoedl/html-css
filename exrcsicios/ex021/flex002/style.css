@@ -6,6 +6,7 @@
 div.conteiner{
     background-color: #ffa07a;
     display: flex;
+    flex-direction: column-reverse;
 }
 div.item{
     background-color: #05bffd;
