@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font: 1.02em sans-serif;
+}
+
+div.conteiner{
+    background-color: #ffa07a;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item{
+    background-color: #05bffd;
+    border: 1px, solid, black;
+    text-align: center;
+    flex: auto;
+}
