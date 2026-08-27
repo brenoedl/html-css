@@ -1,0 +1,36 @@
+div.container1 {
+    background-color: lightcoral;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+div.container2 {
+    background-color: lightgreen;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row-reverse;
+}
+
+div.container3 {
+    background-color: lightyellow;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+div.container4 {
+    background-color: lightpink;
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+}
+
+
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
