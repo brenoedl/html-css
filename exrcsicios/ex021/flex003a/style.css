@@ -1,0 +1,27 @@
+div.container {
+    background-color: lightcoral;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+div#c1{
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+div#c2{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div#c3{
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+}
