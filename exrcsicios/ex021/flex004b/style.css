@@ -1,0 +1,30 @@
+div.container {
+    background-color: lightcoral;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+    height: 50px;
+    justify-content: space-evenly;
+}
+
+div#start {
+    align-items: flex-start;
+}
+
+div#end {
+    align-items: flex-end;
+}
+
+div#center {
+    align-items: center;
+}
+
+div#stretch {
+    align-items: stretch;
+}
+
+div.item {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
